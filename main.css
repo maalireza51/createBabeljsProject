@@ -1,0 +1,40 @@
+#exampleId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.exampleClass{
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-radius: 20px;
+    line-height: 15rem;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.48);
+    box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.48);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.exampleClass:hover{
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+    line-height: 17rem;
+    font-weight: 900;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+}
